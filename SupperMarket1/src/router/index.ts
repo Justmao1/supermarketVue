@@ -9,7 +9,9 @@ import Login from '../components/user/Login.vue'
 import Home from '../components/home/Home.vue'
 import Tips from '../components/home/Tips.vue'
 import ProductList from '../components/product/ProductList.vue'
-//import ProductAdd from '../components/product/ProductAdd.vue'
+import ProductAdd from '../components/product/ProductAdd.vue'
+import ProductUpdate from '../components/product/ProductUpdate.vue'
+import ProductDetail from '../components/product/ProductDetail.vue'
 import BillList from '../components/bill/BillList.vue'
 //import BillAdd from '../components/bill/BillAdd.vue'
 import SupplierList from '../components/supplier/SupplierList.vue'
@@ -40,10 +42,18 @@ const rs:RouteRecordRaw[] = [{
                   path: "/home/product-list",
                   component: ProductList
                 },
-                // {
-                //   path: "/home/product-add",
-                //   component: ProductAdd
-                // },
+                {
+                  path: "/home/product-add",
+                  component: ProductAdd
+                },
+                {
+                  path: "/home/product-update",
+                  component: ProductUpdate
+                },
+                {
+                  path: "/home/product-detail",
+                  component: ProductDetail
+                },
                 {
                   path: "/home/bill-list",
                   component: BillList
