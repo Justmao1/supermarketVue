@@ -11,7 +11,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    BillAdd: typeof import('./src/components/bill/BillAdd.vue')['default']
+    BillDetail: typeof import('./src/components/bill/BillDetail.vue')['default']
     BillList: typeof import('./src/components/bill/BillList.vue')['default']
+    BillUpdate: typeof import('./src/components/bill/BillUpdate.vue')['default']
     EditPass: typeof import('./src/components/user/EditPass.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
