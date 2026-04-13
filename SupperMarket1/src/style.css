@@ -1,0 +1,34 @@
+*,
+div,
+p,
+a,
+span,
+image,
+input,
+form,
+button,
+ul,
+li,
+ol {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: orange;
+}
+/* 主体样式 */
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 60vw;
+	min-height: 50vh;
+}

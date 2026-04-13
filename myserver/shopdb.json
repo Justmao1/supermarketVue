@@ -1,0 +1,507 @@
+{
+  "banner": [
+    {
+      "id": 8001,
+      "pic": "banner1.jpg"
+    },
+    {
+      "id": 8002,
+      "pic": "banner2.jpg"
+    },
+    {
+      "id": 8003,
+      "pic": "banner3.jpg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1001,
+      "pname": "华为meta80",
+      "pcode": "product1001",
+      "pic": "product1.jpg",
+      "categoryId": 5001,
+      "supplierId": 3001,
+      "price": 3599,
+      "stock": 118,
+      "status": "上架"
+    },
+    {
+      "id": 1002,
+      "pname": "小米耳机",
+      "pcode": "product1002",
+      "pic": "product2.jpg",
+      "categoryId": 5002,
+      "supplierId": 3002,
+      "price": 98.8,
+      "stock": 319,
+      "status": "上架"
+    },
+    {
+      "id": 1003,
+      "pname": "技佳鼠标",
+      "pcode": "product1003",
+      "pic": "product3.jpg",
+      "categoryId": 5002,
+      "supplierId": 3002,
+      "price": 68.5,
+      "stock": 286,
+      "status": "上架"
+    },
+    {
+      "id": 1004,
+      "pname": "苹果电脑",
+      "pcode": "product1004",
+      "pic": "product4.jpg",
+      "categoryId": 5003,
+      "supplierId": 3004,
+      "price": 8500,
+      "stock": 10,
+      "status": "下架"
+    },
+    {
+      "id": 1005,
+      "pname": "vivo手机",
+      "pcode": "product1005",
+      "pic": "product5.jpg",
+      "categoryId": 5001,
+      "supplierId": 3003,
+      "price": 2980,
+      "stock": 218,
+      "status": "上架"
+    },
+    {
+      "id": 1006,
+      "pname": "oppo平板",
+      "pcode": "product1006",
+      "pic": "product6.jpg",
+      "categoryId": 5002,
+      "supplierId": 3005,
+      "price": 1980,
+      "stock": 182,
+      "status": "上架"
+    },
+    {
+      "id": 1007,
+      "pname": "希捷硬盘",
+      "pcode": "product1007",
+      "pic": "product7.jpg",
+      "categoryId": 5004,
+      "supplierId": 3004,
+      "price": 985,
+      "stock": 5,
+      "status": "下架"
+    }
+  ],
+  "bill": [
+    {
+      "id": 2001,
+      "billCode": "dd100001",
+      "pname": "手机1",
+      "pic": "product1.jpg",
+      "unit": "部",
+      "num": 3,
+      "total": 5688.5,
+      "flag": "已完成",
+      "supplier": "汇通公司",
+      "date": "2025-12-20"
+    },
+    {
+      "id": 2002,
+      "billCode": "dd100002",
+      "pname": "手机2",
+      "pic": "product2.jpg",
+      "unit": "部",
+      "num": 2,
+      "total": 3990.5,
+      "flag": "待发货",
+      "supplier": "联众集团",
+      "date": "2025-12-15"
+    },
+    {
+      "id": 2003,
+      "billCode": "dd100003",
+      "pname": "手机3",
+      "pic": "product3.jpg",
+      "unit": "部",
+      "num": 1,
+      "total": 4598.8,
+      "flag": "已完成",
+      "supplier": "汇通公司",
+      "date": "2025-12-12"
+    },
+    {
+      "id": 2004,
+      "billCode": "dd100004",
+      "pname": "手机4",
+      "pic": "product4.jpg",
+      "unit": "部",
+      "num": 4,
+      "supplier": "联众集团",
+      "total": 9500.5,
+      "flag": "待发货",
+      "date": "2025-12-03"
+    },
+    {
+      "id": 2005,
+      "billCode": "dd100005",
+      "pname": "平板5",
+      "pic": "product5.jpg",
+      "unit": "部",
+      "num": 2,
+      "total": 5100.5,
+      "flag": "已完成",
+      "supplier": "拼夕夕",
+      "date": "2026-01-19"
+    },
+    {
+      "id": 2006,
+      "billCode": "dd100006",
+      "pname": "平板6",
+      "pic": "product6.jpg",
+      "unit": "部",
+      "num": 3,
+      "total": 6510.5,
+      "flag": "已完成",
+      "supplier": "汇通公司",
+      "date": "2026-02-02"
+    },
+    {
+      "id": 2007,
+      "billCode": "dd100007",
+      "pname": "平板7",
+      "pic": "product7.jpg",
+      "unit": "部",
+      "num": 2,
+      "total": 4350,
+      "flag": "已完成",
+      "supplier": "联众集团",
+      "date": "2026-01-25"
+    },
+    {
+      "id": 2008,
+      "billCode": "dd100008",
+      "pname": "手机8",
+      "pic": "product.jpg",
+      "unit": "部",
+      "num": 3,
+      "total": 9800.5,
+      "flag": "待收货",
+      "supplier": "汇通公司",
+      "date": "2026-02-03"
+    },
+    {
+      "id": 2009,
+      "billCode": "dd100009",
+      "pname": "平板9",
+      "pic": "product.jpg",
+      "unit": "部",
+      "num": 5,
+      "total": 13980.5,
+      "flag": "待付款",
+      "supplier": "联众集团",
+      "date": "2026-01-26"
+    },
+    {
+      "id": 2010,
+      "billCode": "dd100010",
+      "pname": "电脑10",
+      "pic": "product.jpg",
+      "unit": "台",
+      "num": 3,
+      "total": 16500.5,
+      "flag": "待收货",
+      "supplier": "千锋商城",
+      "date": "2025-11-25"
+    },
+    {
+      "id": 2011,
+      "billCode": "dd100011",
+      "pname": "手机11",
+      "pic": "product.jpg",
+      "unit": "部",
+      "num": 6,
+      "total": 13600.5,
+      "flag": "待付款",
+      "supplier": "拼夕夕",
+      "date": "2025-12-26"
+    },
+    {
+      "id": 2012,
+      "billCode": "dd100012",
+      "pname": "手机12",
+      "pic": "product.jpg",
+      "unit": "部",
+      "num": 2,
+      "total": 5400.5,
+      "flag": "待发货",
+      "supplier": "千锋商城",
+      "date": "2025-12-22"
+    },
+    {
+      "id": 2013,
+      "billCode": "dd100013",
+      "pname": "手机13",
+      "pic": "product.jpg",
+      "unit": "部",
+      "num": 4,
+      "total": 13650.5,
+      "flag": "待付款",
+      "supplier": "联众集团",
+      "date": "2025-12-24"
+    }
+  ],
+  "supplier": [
+    {
+      "id": 3001,
+      "sCode": "su3001",
+      "sname": "千锋商城",
+      "concat": "李太美",
+      "mobile": "13120007509",
+      "email": "Ltm@qq.com",
+      "date": "2022-09-21"
+    },
+    {
+      "id": 3002,
+      "sCode": "su3002",
+      "sname": "深圳汇通公司",
+      "concat": "史珍香",
+      "mobile": "13120003509",
+      "email": "shizx@qq.com",
+      "date": "2023-12-10"
+    },
+    {
+      "id": 3003,
+      "sCode": "su3003",
+      "sname": "拼夕夕股份有限公司",
+      "concat": "赵大明",
+      "mobile": "13130007502",
+      "email": "zhdm@qq.com",
+      "date": "2023-08-11"
+    },
+    {
+      "id": 3004,
+      "sCode": "su3004",
+      "sname": "武汉星宇集团",
+      "concat": "张冬梅",
+      "mobile": "13610001788",
+      "email": "whxy@qq.com",
+      "date": "2024-11-09"
+    },
+    {
+      "id": 3005,
+      "sCode": "su3005",
+      "sname": "米优长远科技",
+      "concat": "钱真多",
+      "mobile": "13801234567",
+      "email": "moenymany@sina.com",
+      "date": "2025-06-28"
+    },
+    {
+      "id": 3006,
+      "sCode": "su3006",
+      "sname": "联众集团公司",
+      "concat": "柳如烟",
+      "mobile": "13527654328",
+      "email": "Liury@qq.com",
+      "date": "2025-10-18"
+    },
+    {
+      "id": 3007,
+      "sCode": "su3007",
+      "sname": "光大金元服务",
+      "concat": "孙博远",
+      "mobile": "13981234567",
+      "email": "sunby@qq.com",
+      "date": "2025-11-25"
+    },
+    {
+      "id": 3008,
+      "sCode": "su3008",
+      "sname": "长城智能科技",
+      "concat": "赵静",
+      "mobile": "13680002346",
+      "email": "zhaoj@qq.com",
+      "date": "2026-02-11"
+    }
+  ],
+  "user": [
+    {
+      "id": 4001,
+      "userCode": "ck4001",
+      "username": "tom",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2005-08-12",
+      "address": "杭州市上城区九堡街道18号",
+      "mobile": "13901234567",
+      "email": "chaoke1@sina.com",
+      "role": "技术总监"
+    },
+    {
+      "id": 4002,
+      "userCode": "ck4002",
+      "username": "Jone",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2005-02-18",
+      "address": "杭州市萧山区清宁街区988号",
+      "mobile": "13601234568",
+      "email": "chaoke2@sina.com",
+      "role": "经理助理"
+    },
+    {
+      "id": 4003,
+      "userCode": "ck4003",
+      "username": "bean",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2004-10-11",
+      "address": "杭州市拱墅区行政村8号",
+      "mobile": "13901234569",
+      "email": "chaoke3@sina.com",
+      "role": "总经理"
+    },
+    {
+      "id": 4004,
+      "userCode": "ck4004",
+      "username": "lili",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2005-09-20",
+      "address": "杭州市上城区九堡社区59号",
+      "mobile": "13101234567",
+      "email": "chaoke4@sina.com",
+      "role": "财务总监"
+    },
+    {
+      "id": 4005,
+      "userCode": "ck4005",
+      "username": "Jerry",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2005-08-12",
+      "address": "杭州市临安区美丹路11号",
+      "mobile": "13101234568",
+      "email": "chaoke5@sina.com",
+      "role": "普通员工"
+    },
+    {
+      "id": 4006,
+      "userCode": "ck4006",
+      "username": "kitty",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2006-09-06",
+      "address": "杭州市西湖区花园小区",
+      "mobile": "13101234569",
+      "email": "chaoke6@sina.com",
+      "role": "销售经理"
+    },
+    {
+      "id": 4007,
+      "userCode": "ck4007",
+      "username": "nick",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2004-05-09",
+      "address": "绍兴市五四大街105号",
+      "mobile": "13201234567",
+      "email": "chaoke7@sina.com",
+      "role": "普通员工"
+    },
+    {
+      "id": 4008,
+      "userCode": "ck4008",
+      "username": "linda",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2006-11-22",
+      "address": "杭州市上城区九堡街道98号",
+      "mobile": "13201234569",
+      "email": "chaoke8@sina.com",
+      "role": "财务会计"
+    },
+    {
+      "id": 4009,
+      "userCode": "ck4009",
+      "username": "tina",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2003-11-26",
+      "address": "宁波市高新区219号",
+      "mobile": "13301234567",
+      "email": "chaoke9@sina.com",
+      "role": "普通员工"
+    },
+    {
+      "id": 4010,
+      "userCode": "ck4010",
+      "username": "alice",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2005-08-12",
+      "address": "杭州市西湖区观澜苑11-9号",
+      "mobile": "13301234568",
+      "email": "chaoke10@sina.com",
+      "role": "经理助理"
+    },
+    {
+      "userCode": "ck4011",
+      "username": "赵婷",
+      "password": "1234",
+      "gender": "女",
+      "birth": "2006-08-11",
+      "address": "上海市宝山区",
+      "mobile": "13601234567",
+      "email": "chaoke@sina.com",
+      "role": "经理助理",
+      "id": 4011
+    },
+    {
+      "userCode": "ck4012",
+      "username": "test",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2005-11-16",
+      "address": "苏州市园林区",
+      "mobile": "13121234567",
+      "email": "test@sina.com",
+      "role": "销售经理",
+      "id": 4012
+    },
+    {
+      "userCode": "ck1013",
+      "username": "cool",
+      "password": "1234",
+      "gender": "男",
+      "birth": "2003-07-16",
+      "address": "苏州市园林区",
+      "mobile": "13121234567",
+      "email": "test@sina.com",
+      "role": "普通员工",
+      "id": 4013
+    }
+  ],
+  "category": [
+    {
+      "id": 5001,
+      "cname": "手机",
+      "createTime": "2025-09-28"
+    },
+    {
+      "id": 5002,
+      "cname": "耳机",
+      "createTime": "2025-09-28"
+    },
+    {
+      "id": 5003,
+      "cname": "平板",
+      "createTime": "2025-11-19"
+    },
+    {
+      "id": 5002,
+      "cname": "电脑",
+      "createTime": "2025-11-19"
+    }
+  ]
+}
