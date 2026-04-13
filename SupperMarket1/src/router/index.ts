@@ -17,7 +17,9 @@ import BillAdd from '../components/bill/BillAdd.vue'
 import BillUpdate from '../components/bill/BillUpdate.vue'
 import BillDetail from '../components/bill/BillDetail.vue'
 import SupplierList from '../components/supplier/SupplierList.vue'
-//import SupplierAdd from '../components/supplier/SupplierAdd.vue'
+import SupplierAdd from '../components/supplier/SupplierAdd.vue'
+import SupplierUpdate from '../components/supplier/SupplierUpdate.vue'
+import SupplierDetail from '../components/supplier/SupplierDetail.vue'
 import UserList from '../components/user/UserList.vue'
 import UserAdd from '../components/user/UserAdd.vue'
 import UserUpdate from '../components/user/UserUpdate.vue'
@@ -76,10 +78,18 @@ const rs:RouteRecordRaw[] = [{
                   path: "/home/supplier-list",
                   component: SupplierList
                 },
-                // {
-                //   path: "/home/supplier-add",
-                //   component: SupplierAdd
-                // },
+                {
+                  path: "/home/supplier-add",
+                  component: SupplierAdd
+                },
+                {
+                  path: "/home/supplier-update",
+                  component: SupplierUpdate
+                },
+                {
+                  path: "/home/supplier-detail",
+                  component: SupplierDetail
+                },
                 {
                   path: "/home/user-list",
                   component: UserList
